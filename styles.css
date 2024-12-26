@@ -1,2 +1,61 @@
 
 /* Your CSS Code here. */
+
+/* Modal */
+.modal-dialog {
+  max-width: 500px;
+  margin: 40px auto;
+}
+
+.modal-content {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+}
+
+.modal-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-footer {
+  background-color: #f0f0f0;
+  border-top: 1px solid #ddd;
+  padding: 10px;
+  text-align: right;
+}
+
+.btn-close {
+  font-size: 24px;
+  font-weight: bold;
+  color: #666;
+  opacity: 0.5;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.btn-close:hover {
+  opacity: 1;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
